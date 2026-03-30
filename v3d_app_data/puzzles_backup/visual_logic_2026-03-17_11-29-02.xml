@@ -1,0 +1,29 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-5" scrolly="83" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id=":uKmb{BzW=gG[4a{i=Mq" x="270" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="+nMajcb`!szy2,kv?bEr">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="@V@5Bkeb$M0A?r[vI3YM">
+          <field name="FIELDNAME">arm_1_shoulderjoint</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="$_}J*`z=rZ.-gcPNTRe#">
+          <field name="TEXT">Shoulder joint</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="oQZNV,N:qux}|uj,a|`e">
+          <field name="TEXT">poi1</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1135" viewport-y="-2" viewport-w="768" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,54 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-33" scrolly="154" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id=":uKmb{BzW=gG[4a{i=Mq" x="270" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="+nMajcb`!szy2,kv?bEr">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="@V@5Bkeb$M0A?r[vI3YM">
+          <field name="FIELDNAME">arm_1_shoulderjoint</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="$_}J*`z=rZ.-gcPNTRe#">
+          <field name="TEXT">arm_1_Shoulder joint</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="oQZNV,N:qux}|uj,a|`e">
+          <field name="TEXT">poi1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="b0^oMNGtHM{O0M6MQj=R">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id=":%Ih-F-r=)9U{ASHdP,6">
+              <field name="TEXT">2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="5EYSV*[z-6aQ22XnheE2">
+              <field name="FIELDNAME">arm_1_Elbow joint</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="xSL7cRIa$SaEtbln;w[{">
+              <field name="TEXT">arm_1_Elbow joint</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="KytOL}s9t?%F_JE?#B40">
+              <field name="TEXT">poi1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1135" viewport-y="-2" viewport-w="768" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

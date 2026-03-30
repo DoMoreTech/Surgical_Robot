@@ -1,0 +1,104 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-121.99999999999989" scrolly="-17.000000000000057" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id=":uKmb{BzW=gG[4a{i=Mq" x="190" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="+nMajcb`!szy2,kv?bEr">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="@V@5Bkeb$M0A?r[vI3YM">
+          <field name="FIELDNAME">arm_1_shoulderjoint</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="$_}J*`z=rZ.-gcPNTRe#">
+          <field name="TEXT">arm_1_Shoulder joint</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="oQZNV,N:qux}|uj,a|`e">
+          <field name="TEXT">poi1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="b0^oMNGtHM{O0M6MQj=R">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id=":%Ih-F-r=)9U{ASHdP,6">
+              <field name="TEXT">2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="5EYSV*[z-6aQ22XnheE2">
+              <field name="FIELDNAME">arm_1_Elbow joint</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="xSL7cRIa$SaEtbln;w[{">
+              <field name="TEXT">arm_1_Elbow joint</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="KytOL}s9t?%F_JE?#B40">
+              <field name="TEXT">poi1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addAnnotation" id=":jWB,Sxi]@aP,n!4p?,g">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="6+8U)AI;1hF?LVl(,v9V">
+                  <field name="TEXT">3</field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="Seg)b9[Ac[*|9IN*pGg7">
+                  <field name="FIELDNAME">arm_1_Forearm</field>
+                </shadow>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="CLGQY.V)PC4bX20TwO,v">
+                  <field name="TEXT">arm_1_Forearm</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="@:Pn;=kXZK2~+uEQWbxC">
+                  <field name="TEXT">poi1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addAnnotation" id="Rrxxgvf_y/VguBIKDsUo">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="S{*$[r|powE(yl.[@9hh">
+                      <field name="TEXT">4</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="kS+Iow(I]nO3yG0|q].b">
+                      <field name="FIELDNAME">arm_1_Wrist joint</field>
+                    </shadow>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="U`-C4ek|v3=c8d?meDg$">
+                      <field name="TEXT">arm_1_Wrist joint</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="J3YFSl6~xI{NIQ:Rz/az">
+                      <field name="TEXT">poi1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1135" viewport-y="-2" viewport-w="768" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
