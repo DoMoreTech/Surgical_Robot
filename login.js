@@ -23,7 +23,7 @@ const db = getFirestore(app);
 
 //Email link settings
 const actionCodeSettings = {
-  url: "http://127.0.0.1:5500/index.html",
+  url: "https://DoMoreTech.github.io/Surgical_Robot/",
   handleCodeInApp: true
 };
 
