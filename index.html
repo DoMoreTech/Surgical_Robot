@@ -1,48 +1,168 @@
 <!DOCTYPE html>
-<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
-<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
 <html lang="en">
 <head>
-  <title>Verge3D Web Interactive</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta charset="UTF-8">
+<title>Surgical Robo Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Search Engines -->
-  <meta name="description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Verge3D Web Interactive">
-  <meta name="twitter:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
-  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
-  <!-- Open Graph -->
-  <meta property="og:title" content="Verge3D Web Interactive">
-  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
-  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
-  <meta property="og:type" content="website">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-  <meta name="generator" content="Verge3D 4.10.0">
+body {
+    height: 100vh;
+    display: flex;
+}
 
-  <!-- favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48x48.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
-  <link rel="manifest" href="media/manifest.json">
-  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#0048a5">
-  <meta name="theme-color" content="#ffffff">
+/* LEFT SIDE (NOW LIGHT BACKGROUND) */
+.left {
+    width: 50%;
+    background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-  <script src="v3d.js"></script>
-  <script src="surgicalrobot.js"></script>
+/* LOGO BOX */
+.logo-box {
+    background: rgba(15, 118, 110, 0.08);
+    padding: 25px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
 
-  <link rel="stylesheet" type="text/css" href="surgicalrobot.css">
+/* LOGO IMAGE */
+.logo-box img {
+    width: 120px;
+}
+
+/* TEXT */
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.subtitle {
+    color: #475569;
+    font-size: 18px;
+}
+
+/* RIGHT SIDE (NOW GRADIENT DARK) */
+.right {
+    width: 50%;
+    background: radial-gradient(circle at center, #1abc9c, #0f766e 60%, #062f2f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.card p {
+    color: #475569;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+label {
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #e5e7eb;
+    margin: 10px 0 20px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #1abc9c;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(135deg, #1abc9c, #0f766e);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #64748b;
+    text-align: center;
+}
+</style>
+<script type="module" src="login.js"></script>
 </head>
 
 <body>
-  <noscript>Your browser does not support JavaScript, that's why this Verge3D app could not be loaded. Try another browser or contact the <a href="https://www.soft8soft.com">developers</a> for help.</noscript>
 
-  <div id="v3d-container">
-    <div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
-  </div>
+<!-- LEFT SIDE -->
+<div class="left">
+    <div class="left-content">
+        <div class="logo-box">
+            <!-- Replace with your real logo -->
+            <img src="media/DoMoreLogo.png" alt="Logo">
+        </div>
+
+        <h1>WELCOME TO<br>SURGICAL ROBO</h1>
+        <p class="subtitle">Advanced Surgical Automation System</p>
+    </div>
+</div>
+
+<!-- RIGHT SIDE -->
+<div class="right">
+    <div class="card">
+        <h2>Login</h2>
+        <p>Please verify your credentials to proceed.</p>
+
+        <label>Email Address</label>
+        <input id="email" type="email" placeholder="Enter your email">
+        <p id="error-msg" style="color:red; font-size:13px; display:none;"></p>
+
+        <button onclick="sendLink()">Send Mail →</button>
+
+        <div class="footer">
+            © 2026 Surgical Robo
+        </div>
+    </div>
+</div>
+
 </body>
-
 </html>
