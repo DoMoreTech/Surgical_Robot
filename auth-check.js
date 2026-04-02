@@ -18,13 +18,14 @@ const isLoggedIn = localStorage.getItem("isLoggedIn");
 
 //Check login status
 onAuthStateChanged(auth, (user) => {
-
+    console.log("Auth state changed. User:", user);
+    console.log("Session flag (isLoggedIn):", isLoggedIn);
   if (user && isLoggedIn === "true") {
     //Allow access
-    document.body.style.display = "block";
+    //document.body.style.display = "block";
 
     //Remove flag after first use
-    localStorage.removeItem("isLoggedIn");
+    //localStorage.removeItem("isLoggedIn");
 
   } else {
     //Block access
